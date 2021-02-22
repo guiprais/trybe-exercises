@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins';
 }
 
 header {
@@ -32,4 +33,41 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: lightgray;
+}
+
+.container {
+  width: 880px;
+  margin: 0 auto;
+}
+
+.container aside {
+  float: right;
+
+  padding-left: 2.5em;
+  padding-bottom: 2.5em;
+  margin-top: 0;
+}
+
+.container aside ul {
+  list-style: none;
+}
+
+.container aside ul li {
+  font-size: 1.2em;
+}
+
+.container section {
+  margin: 1.2em;
+
+  margin-bottom: 2.5em;
+}
+
+.container section h2,
+.container aside h2 {
+  font-size: 2em;
+  margin-bottom: 0.4em;
+}
+
+.container section p {
+  font-size: 1.2em;
 }
