@@ -71,3 +71,16 @@ header ul li a {
 .container section p {
   font-size: 1.2em;
 }
+
+footer {
+  width: 100%;
+  background-color: darkcyan;
+  color: white;
+
+  text-align: center;
+  padding: 1em 0;
+}
+
+footer a {
+  color: lightblue;
+}
