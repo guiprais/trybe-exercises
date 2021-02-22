@@ -1,0 +1,39 @@
+h3 {
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 50px;
+}
+
+.primary {
+  color: blue;
+}
+
+.secondary {
+  color: orange;
+}
+
+.third {
+  color: #189188;
+  padding: 0.5em;
+}
+
+.dark-color {
+  color: darkblue;
+}
+
+.light-color {
+  color: lightgreen;
+}
+
+.primary,
+.third,
+.light-color {
+  font-style: italic;
+}
+
+.primary:hover,
+.secondary:hover,
+.third:hover,
+.dark-color:hover,
+.light-color:hover {
+  border: 1px solid black;
+}
