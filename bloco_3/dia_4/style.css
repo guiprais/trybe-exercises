@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+  background-color: #e2e2e2;
+}
+
+.amethyst {
+  color: #9b5de5;
+}
+
+.blue {
+  color: #173753;
+}
+
+.navbar {
+  width: 100%;
+  background-color: darkcyan;
+  color: white;
+
+  text-align: center;
+}
+
+header h1 {
+  padding: 1em;
+}
+
+header h1 span {
+  font-size: 0.6em;
+}
+
+header ul {
+  padding-bottom: 1.5em;
+}
+header ul li {
+  display: inline-block;
+  padding: 1em;
+  font-weight: 600;
+}
+header ul li a:hover {
+  color: rgb(0, 194, 194);
+  transition: linear 0.2s;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.container {
+  width: 880px;
+  margin: 0 auto;
+}
+
+.container aside {
+  float: right;
+
+  padding-left: 2.5em;
+  padding-bottom: 2.5em;
+  margin-top: 0;
+}
+
+.container aside ul {
+  list-style: none;
+}
+
+.container aside ul li {
+  font-size: 1.1em;
+}
+
+.container section {
+  margin: 1.2em 0;
+
+  margin-bottom: 2.5em;
+}
+
+.container section h2,
+.container aside h2 {
+  font-size: 1.6em;
+  margin-bottom: 0.4em;
+}
+
+.container section .text {
+  font-size: 1.1em;
+}
+
+.container section ul li {
+  list-style: none;
+}
+.container section ul li a {
+  text-decoration: none;
+}
+
+.eyes-section {
+  float: right;
+  width: 45%;
+  margin-left: 1em;
+}
+
+.eyes {
+  width: 100%;
+}
+
+.punch-section {
+  float: left;
+  width: 45%;
+  margin-right: 1em;
+}
+
+.punch {
+  width: 100%;
+}
+
+.img-subtitle {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: slategrey;
+  text-align: center;
+  margin-top: -6px;
+  font-style: italic;
+}
+
+footer {
+  width: 100%;
+  background-color: darkcyan;
+  color: white;
+
+  text-align: center;
+  padding: 1em 0;
+}
+
+footer a {
+  color: lightblue;
+}
