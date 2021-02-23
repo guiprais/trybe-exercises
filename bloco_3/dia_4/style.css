@@ -5,6 +5,18 @@
   font-family: 'Poppins';
 }
 
+body {
+  background-color: #e0ddcf;
+}
+
+.amethyst {
+  color: #9b5de5;
+}
+
+.blue {
+  color: #173753;
+}
+
 header {
   width: 100%;
   background-color: darkcyan;
