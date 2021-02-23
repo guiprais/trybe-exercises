@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #e0ddcf;
+  background-color: #e2e2e2;
 }
 
 .amethyst {
@@ -17,7 +17,7 @@ body {
   color: #173753;
 }
 
-header {
+.navbar {
   width: 100%;
   background-color: darkcyan;
   color: white;
@@ -40,6 +40,10 @@ header ul li {
   display: inline-block;
   padding: 1em;
   font-weight: 600;
+}
+header ul li a:hover {
+  color: rgb(0, 194, 194);
+  transition: linear 0.2s;
 }
 
 header ul li a {
@@ -80,7 +84,7 @@ header ul li a {
   margin-bottom: 0.4em;
 }
 
-.container section p {
+.container section .text {
   font-size: 1.1em;
 }
 
