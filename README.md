@@ -1,5 +1,5 @@
 <div align="center">
-<image src="https://i.postimg.cc/d1RD06Pt/logotrybe.png">
+<image src="https://i.postimg.cc/zBQKnp2w/logo-cortada-branca.png" width="200" heigth="400">
 </div>
   
 ### Repositório de exercícios
