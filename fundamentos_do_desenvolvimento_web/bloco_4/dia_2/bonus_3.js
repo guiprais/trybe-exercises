@@ -17,3 +17,7 @@ for (let i = 1; i <= numbers.length; i += 1) {
 }
 
 console.log(array);
+
+
+
+for (let k = 1; k <= numbers.length; k++) { if ((k - 1) < numbers.length) {  swap (trocamos) aux3 = numbers[k] * numbers[k - 1]; numbers[k -1] = aux3; } else if(k = numbers.length) { aux3 = 0; aux3 = numbers[k] * 2; numbers[k] = aux3; } } console.log(numbers); 
