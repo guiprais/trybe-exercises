@@ -31,5 +31,9 @@ let infoTioPatinhas = {
 };
 
 for (let i in info) {
-  console.log(info[i] + ' e ' + infoTioPatinhas[i]);
+  if (info[i] === 'Sim' && infoTioPatinhas[i] === 'Sim') {
+    console.log('Ambos recorrentes');
+  } else {
+    console.log(info[i] + ' e ' + infoTioPatinhas[i]);
+  }
 }
