@@ -118,6 +118,14 @@
 
         selectUl.appendChild(createLi);
       }
+
+      // 9. Adicione 3 tags h3 , todas sendo filhas do div criado no passo 2.
+      let selectMainContent = document.querySelector('.main-content');
+
+      for (i = 0; i < 3; i += 1) {
+        let createH3 = document.createElement('h3');
+        selectMainContent.appendChild(createH3);
+      }
     </script>
   </body>
 </html>
