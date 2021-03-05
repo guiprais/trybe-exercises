@@ -77,3 +77,15 @@ for (let i = 0; i < dezDaysList.length; i += 1) {
     dezDaysItem.classList.add('friday');
   }
 }
+
+// Exercicio 2
+function createBtnHoliday(string) {
+  const createButton = document.createElement('button');
+  createButton.innerText = string;
+  createButton.id = 'btn-holiday';
+  return createButton;
+}
+
+let feriado = createBtnHoliday('Feriado');
+const selectButtonsContainer = document.querySelector('.buttons-container');
+selectButtonsContainer.appendChild(feriado);
