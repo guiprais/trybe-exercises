@@ -130,6 +130,12 @@
       // 10. Adicione a classe title na tag h1 criada;
       let selectH1 = document.querySelector('h1');
       selectH1.setAttribute('class', 'title');
+
+      // 11. Adicione a classe description nas 3 tags h3 criadas;
+      let selectH3 = document.querySelectorAll('h3');
+      for (i = 0; i < 3; i += 1) {
+        selectH3[i].setAttribute('class', 'description');
+      }
     </script>
   </body>
 </html>
