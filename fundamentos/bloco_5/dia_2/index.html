@@ -103,6 +103,21 @@
       createImg.setAttribute('class', 'small-image');
 
       leftContent.appendChild(createImg);
+
+      // 8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso como valores da lista. Essa lista deve ser filha do div criado no passo 6;
+      let rightContent = document.querySelector('.right-content');
+      let createUl = document.createElement('ul');
+
+      rightContent.appendChild(createUl);
+
+      for (i = 1; i <= 10; i += 1) {
+        let selectUl = document.querySelector('.right-content')
+          .firstElementChild;
+        let createLi = document.createElement('li');
+        createLi.innerText = i;
+
+        selectUl.appendChild(createLi);
+      }
     </script>
   </body>
 </html>
