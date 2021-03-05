@@ -95,6 +95,14 @@
       let leftContentSibling = document.querySelector('.left-content')
         .nextElementSibling;
       leftContentSibling.setAttribute('class', 'right-content');
+
+      // 7. Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image . Esse elemento deve ser filho do div criado no passo 5;
+      let leftContent = document.querySelector('.left-content');
+      let createImg = document.createElement('img');
+      createImg.setAttribute('src', 'https://picsum.photos/200');
+      createImg.setAttribute('class', 'small-image');
+
+      leftContent.appendChild(createImg);
     </script>
   </body>
 </html>
