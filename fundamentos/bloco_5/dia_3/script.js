@@ -109,3 +109,14 @@ function changeHolidaysColor() {
 
 const selectButtonHoliday = document.querySelector('#btn-holiday');
 selectButtonHoliday.addEventListener('click', changeHolidaysColor);
+
+// Exercicio 4
+function createBtnFriday(string) {
+  const createButton = document.createElement('button');
+  createButton.innerText = string;
+  createButton.id = 'btn-friday';
+  return createButton;
+}
+
+let friday = createBtnFriday('Sexta-Feira');
+selectButtonsContainer.appendChild(friday);
