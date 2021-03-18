@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css" />
+  <title>Formulário</title>
+</head>
+
+<body>
+  <div class=" container is-max-desktop">
+    <form action="" method="GET" class="js-form">
+      <h1 class="title">Dados Pessoais</h1>
+
+      <div class="field is-horizontal">
+        <div class="field-body">
+          <div class="field">
+            <label class="label" for="name">Nome:</label>
+            <p class="control">
+              <input class="input is-info" type="text" id="name" max="40" placeholder="Nome" required />
+            </p>
+          </div>
+
+          <div class="field">
+            <label class="label" for="email">E-Mail: </label>
+            <p class="control">
+              <input class="input is-info" type="text" id="email" max="50" placeholder="Email" required />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="cpf">CPF: </label>
+        <div class="control">
+          <input class="input is-info" type="text" id="cpf" max="11" required />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="address">Endereço: </label>
+        <div class="control">
+          <input class="input is-info" type="text" id="address" max="200" required />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="city">Cidade:</label>
+        <div class="control">
+          <input class="input is-info" type="text" id="city" max="28" required />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="state">Estado:</label>
+        <div class="control">
+          <div class="select is-info">
+            <select id="state" required></select>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="title">Último emprego</h1>
+      <div class="field">
+        <label class="label" for="curriculum">Resumo do currículo:</label>
+        <div class="control">
+          <textarea class="textarea is-info" id="curriculum" max="1000" required></textarea>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="cargo">Cargo:</label>
+        <div class="control">
+          <input class="input is-info" type="text" id="cargo" max="40" required />
+        </div>
+      </div>
+      <div class="field">
+        <label class="label" for="cargo-description">
+          Descrição do cargo:
+        </label>
+        <div class="control">
+          <input class="input is-info" type="text" id="cargo-description" max="500" required />
+        </div>
+      </div>
+
+      <div class="field">
+        <p class="control">
+          <button class="button is-primary">Enviar</button>
+        </p>
+      </div>
+    </form>
+  </div>
+
+  <script src="./path/to/just-validate.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
