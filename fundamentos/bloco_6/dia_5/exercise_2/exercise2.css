@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: indianred;
+  color: white;
+  font-weight: 600;
+}
+
+header ul {
+  display: none;
+  position: absolute;
+}
+
+ul li {
+  font-size: larger;
+}
+
+aside,
+article,
+footer {
+  margin: 0 0.6em;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+p {
+  font-size: larger;
+}
